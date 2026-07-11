@@ -1,0 +1,69 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-5">
+            <img
+                src="/assets/img/BHBT-Black.png"
+                width="90%"
+                alt="Archery Shoot Finder logo"
+            />
+        </div>
+        <div class="col-6">
+            <h2 class="display-5 fw-bold mb-4">Bullet Hole Bow Tuning</h2>
+            <p class="fs-4">
+                This is a work in progress & MVP should be live by end of June
+                2026. Whether you're a shooter or a vendor we welcome feedback.
+                You can reach us via the form below or text us at 720.608.1444.
+                Our team responds within 24 -48 hour M-F.
+            </p>
+
+            <form
+                action="https://formspree.io/f/mgvnbwwb"
+                method="POST"
+                class="row g-3 justify-content-center"
+            >
+                <div class="col-md-6">
+                    <input
+                        type="text"
+                        name="name"
+                        class="form-control form-control-lg"
+                        placeholder="Your Name"
+                        required
+                    />
+                </div>
+                <div class="col-md-6">
+                    <input
+                        type="email"
+                        name="email"
+                        class="form-control form-control-lg"
+                        placeholder="Email Address"
+                        required
+                    />
+                </div>
+                <div class="col-12">
+                    <select
+                        name="type"
+                        class="form-select form-select-lg"
+                        required
+                    >
+                        <option value="">I am a...</option>
+                        <option value="shooter">Shooter / Archer</option>
+                        <option value="venue">Venue / Event Organizer</option>
+                    </select>
+                </div>
+                <div class="col-12">
+                    <textarea
+                        name="feedback"
+                        rows="4"
+                        class="form-control form-control-lg"
+                        placeholder="Your feedback or requested features..."
+                    ></textarea>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-light btn-lg px-5">
+                        Submit Feedback & Join Waitlist
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

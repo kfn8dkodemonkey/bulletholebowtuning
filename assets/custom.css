@@ -1,0 +1,36 @@
+/*.hero {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+        url("/assets/img/target-shoot.png") center/cover no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}*/
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.btn-primary {
+    background-color: #2e7d32;
+    border-color: #2e7d32;
+}
+
+.btn-primary:hover {
+    background-color: #1b5e20;
+    border-color: #1b5e20;
+}
+
+.card-hover:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Layout Adjustments for the Full Deck Slider */
+.custom-carousel-btn {
+    width: 5%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-size: 50%;
+}
