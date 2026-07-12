@@ -21,7 +21,7 @@
 title: Bullet Hole Bow Tuning
 email: support@bulletholebowtuning.com
 description: >- # this means to ignore newlines until "baseurl:"
-Precision Tuning. Custom Builds. Zero Compromise.No retail lines, no rush jobs—just elite, one-on-one craftsmanship to make your bow shoot perfectly.
+  Precision Tuning. Custom Builds. Zero Compromise.No retail lines, no rush jobs—just elite, one-on-one craftsmanship to make your bow shoot perfectly.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
